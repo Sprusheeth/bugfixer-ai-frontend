@@ -618,7 +618,7 @@ async function startProcessing(files) {
 
   const endpoint = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
     ? "http://localhost:5000/fix"
-    : "https://YOUR_DEPLOYED_URL/api/fix"; 
+    : "https://bugfixer-ai-backend-pye4sqj24a-uc.a.run.app/"; 
 
   progressStage.textContent = "STAGE 1: UPLOADING";
   statusMsg.textContent = "Preparing upload...";
